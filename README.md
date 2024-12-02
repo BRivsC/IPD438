@@ -1,4 +1,4 @@
-# CDN Performance Testing Repository
+# Comparativa de métodos de asignación de servidores CDN a clientes
 
 Este repositorio contiene scripts y recursos utilizados para realizar pruebas de rendimiento en diversas redes de entrega de contenido (CDN). Incluye scripts de Python, gráficos generados a partir de los datos de las pruebas, registros detallados de las pruebas y un paper que documenta los hallazgos.
 
@@ -17,4 +17,7 @@ Para correr el experimento basta con subir `test_CDNs.py` y ejecutarlo con
 ```
 python test_CDNs.py
 ```
-Los resultados se guardan en archivos .log. Recomiendo ajustar sus nombres en base a las zonas donde se monten las máquinas.
+Los resultados se guardan en un archivo `cdn_performance.log`. Recomiendo ajustar sus nombres en base a las zonas donde se monten las máquinas.
+
+## Autor
+Bastián Rivas, para el ramo IPD438 de la UTFSM el 2024.
